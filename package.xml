@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Radishok_LazyJs</name>
+    <version>0.0.0.6</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This Extension will speed up frontend rendering by placing JavaScript at the bottom of the page </summary>
+    <description>When you put your JavaScript at the top of the page, the browser will start loading your JS files before the markup, images and text. And since browsers load JavaScript synchronously, nothing else will load while the JavaScript is loading. So there will be a timeframe of a few seconds where the user will see a blank page, while the JavaScript is loading. On the other hand, if you place your JavaScript at the bottom of the page, the user will see the page loading first, and after that the JavaScript will load in the background. So if for example your CSS &amp; HTML takes 5 seconds to load, and your JavaScript takes another 5 seconds, putting our JavaScript on the top of the page will give the user a &#x201C;perceived&#x201D; loading time of 10 seconds, and putting it on the bottom will give a &#x201C;perceived&#x201D; loading time of 5 seconds.</description>
+    <notes>Skip moving google-analytics to footer</notes>
+    <authors><author><name>Denis Derbenyov</name><user>radishok</user><email>ddenisiy@gmail.com</email></author></authors>
+    <date>2015-06-27</date>
+    <time>10:52:23</time>
+    <contents><target name="magelocal"><dir name="Radishok"><dir name="LazyJs"><dir name="Model"><file name="Observer.php" hash="c68065256d7c4b297d20a43c1b947d55"/></dir><dir name="etc"><file name="config.xml" hash="735c8e650655529373bcd01a9df36cfb"/><file name="system.xml" hash="774de6a70397eb66b7e7dda38987b38c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Radishok_LazyJs.xml" hash="594198ce4094a6ac5c47c7d99f36d5d3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
