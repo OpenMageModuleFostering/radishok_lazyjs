@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Radishok_LazyJs",
+    "name": "OpenMageModuleFostering\/Radishok_LazyJs",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "This Extension will speed up frontend rendering by placing JavaScript at the bottom of the page ",
     "authors": [
-    {
-        "name": "Denis Derbenyov",
-        "email": "ddenisiy@gmail.com"
-    }
-],
+        {
+            "name": "Denis Derbenyov",
+            "email": "ddenisiy@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
