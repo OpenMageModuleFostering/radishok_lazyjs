@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This Extension will speed up frontend rendering by placing JavaScript at the bottom of the page 
